@@ -17,5 +17,18 @@ public class MainClas {
 
         System.out.println(studentClass);
 
+
+        /*
+        Run the main class
+        Then Type the class names
+        Math
+        Science
+        Music
+
+        Result should be like this
+        StudentClass{username='Origi', password='CornerTakenQuickly'Price of the school is £6500Location of the school is EnglandClass names and score for it {Math=32, Science=59, Music=7}}
+
+
+         */
     }
 }
