@@ -9,10 +9,27 @@ import java.util.LinkedHashMap;
 
 public class StudentClass extends SchoolLocation{
 
+    /*
+    This method child of the SchoolLocation
+
+    Create 3 instance variable
+
+    String username and password
+
+    Linked hash map key is String value is Integer name is classNameAndScore
+
+     */
     String username;
     String password;
     LinkedHashMap<String , Integer> classNameAndScore = new LinkedHashMap<>();
 
+    /*
+        Create an constructor
+        three parameter String username password and studentSchoolLocation
+
+        Call the setUsernameAndPassword method in the constructor
+
+     */
     public StudentClass(String username , String password , String studentSchoolLocation ){
         super(studentSchoolLocation);
 
@@ -20,6 +37,15 @@ public class StudentClass extends SchoolLocation{
 
     }
 
+    /*
+    Create a method name is  setUsernamePassword
+    Parameter is String username password
+    no return type
+
+    Check is given username and password pair exist in the Student data class
+
+    if it is not exist then throw error which is "Not able to find a username and password. Please sign up to website"
+     */
 
     public void setUsernamePassword(String username , String password){
 
@@ -46,14 +72,28 @@ public class StudentClass extends SchoolLocation{
         }
     }
 
+    /*
+        create a set method for the classNameAndScore
+     */
     public void setClassNameAndScore(LinkedHashMap<String, Integer> classNameAndScore) {
         this.classNameAndScore = classNameAndScore;
     }
 
+    /*
+        create a get method for the classNameAndScore
+     */
     public LinkedHashMap<String, Integer> getClassNameAndScore() {
         return classNameAndScore;
     }
 
+    /*
+    Create a toString method
+    print username
+          password
+          Price
+          schoolLocation
+          all class names and scores
+     */
     @Override
     public String toString() {
         return "StudentClass{" +

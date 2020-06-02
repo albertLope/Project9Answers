@@ -1,6 +1,7 @@
 package TestClass;
 
 import Lessons.LessonClass;
+import Lessons.Music;
 import Student.StudentClass;
 
 import java.util.ArrayList;
@@ -10,7 +11,7 @@ public class MainClass2 {
 
         StudentClass studentClass = new StudentClass("Origiii", "CornerTakenQuickly","England" );
 
-        LessonClass lessonClass = new LessonClass(studentClass);
+        LessonClass lessonClass = new Music(studentClass);
 
 
         studentClass.setClassNameAndScore(lessonClass.getClassNameAndScore());
@@ -21,12 +22,12 @@ public class MainClass2 {
         /*
         Run the main class
         Then Type the class names
-        Math
-        Science
-        Music
+        Enter: Math
+        Enter: Science
+        Enter: Music
 
         Result should be like this
-        StudentClass{username='Origiii', password='CornerTakenQuickly'Price of the school is £6500Location of the school is EnglandClass names and score for it {Math=32, Science=59, Music=7}}
+        StudentClass{username='Origiii', password='CornerTakenQuickly'Price of the school is £6500 Location of the school is EnglandClass names and score for it {Math=32, Science=59, Music=7}}
 
          */
     }

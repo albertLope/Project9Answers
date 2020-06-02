@@ -4,6 +4,16 @@ import java.util.LinkedHashMap;
 
 public class StudentData {
 
+    /*
+        Dont change this class
+
+        In this map
+        Key is the username
+        Value is the password
+
+        While checking user name and password is exist or not use AddUserNameAndPassword method
+
+     */
     private LinkedHashMap<String ,String> UsernameAndPassword = new LinkedHashMap<>();
 
     public StudentData(){

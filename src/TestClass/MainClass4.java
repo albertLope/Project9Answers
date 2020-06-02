@@ -1,6 +1,7 @@
 package TestClass;
 
 import Lessons.LessonClass;
+import Lessons.Music;
 import Student.StudentClass;
 
 public class MainClass4 {
@@ -8,7 +9,7 @@ public class MainClass4 {
 
         StudentClass studentClass = new StudentClass("David", "Villa","England" );
 
-        LessonClass lessonClass = new LessonClass(studentClass);
+        LessonClass lessonClass = new Music(studentClass);
 
         studentClass.setClassNameAndScore(lessonClass.getClassNameAndScore());
 

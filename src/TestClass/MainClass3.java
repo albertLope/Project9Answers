@@ -1,6 +1,7 @@
 package TestClass;
 
 import Lessons.LessonClass;
+import Lessons.Music;
 import Student.StudentClass;
 
 public class MainClass3 {
@@ -9,7 +10,7 @@ public class MainClass3 {
 
         StudentClass studentClass = new StudentClass("Gerard", "Captain2005","France" );
 
-        LessonClass lessonClass = new LessonClass(studentClass);
+        LessonClass lessonClass = new Music(studentClass);
 
         studentClass.setClassNameAndScore(lessonClass.getClassNameAndScore());
 
@@ -18,9 +19,8 @@ public class MainClass3 {
 
         /*
         Run the main class
-        Math
-        Music
-        Art
+        Enter: Art
+
             Exception in thread "main" java.lang.RuntimeException: You class name is not a valid class name.
          */
     }

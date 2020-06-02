@@ -1,6 +1,7 @@
 package TestClass;
 
 import Lessons.LessonClass;
+import Lessons.Music;
 import Student.StudentClass;
 
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ public class MainClas {
 
         StudentClass studentClass = new StudentClass("Gerard", "Captain2005","Portugal" );
 
-        LessonClass lessonClass = new LessonClass(studentClass);
+        LessonClass lessonClass = new Music(studentClass);
 
         studentClass.setClassNameAndScore(lessonClass.getClassNameAndScore());
 
