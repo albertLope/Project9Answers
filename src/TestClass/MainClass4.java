@@ -3,13 +3,10 @@ package TestClass;
 import Lessons.LessonClass;
 import Student.StudentClass;
 
-import java.util.ArrayList;
-
-public class MainClas {
-
+public class MainClass4 {
     public static void main(String[] args) {
 
-        StudentClass studentClass = new StudentClass("Gerard", "Captain2005","Portugal" );
+        StudentClass studentClass = new StudentClass("David", "Villa","England" );
 
         LessonClass lessonClass = new LessonClass(studentClass);
 
@@ -19,11 +16,13 @@ public class MainClas {
 
 
         /*
+
         Run the main class
 
-        Result should be Exception in thread "main" java.lang.AssertionError: Location should be one of the following [USA, England, France, Germany, Canada]
-
+        Result should be
+         Exception in thread "main" java.lang.AssertionError: Not able to find a username and password. Please sign up to website
 
          */
     }
 }
+

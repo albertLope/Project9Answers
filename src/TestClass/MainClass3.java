@@ -3,13 +3,11 @@ package TestClass;
 import Lessons.LessonClass;
 import Student.StudentClass;
 
-import java.util.ArrayList;
-
-public class MainClas {
+public class MainClass3 {
 
     public static void main(String[] args) {
 
-        StudentClass studentClass = new StudentClass("Gerard", "Captain2005","Portugal" );
+        StudentClass studentClass = new StudentClass("Gerard", "Captain2005","France" );
 
         LessonClass lessonClass = new LessonClass(studentClass);
 
@@ -20,10 +18,11 @@ public class MainClas {
 
         /*
         Run the main class
-
-        Result should be Exception in thread "main" java.lang.AssertionError: Location should be one of the following [USA, England, France, Germany, Canada]
-
-
+        Math
+        Music
+        Art
+            Exception in thread "main" java.lang.RuntimeException: You class name is not a valid class name.
          */
     }
 }
+

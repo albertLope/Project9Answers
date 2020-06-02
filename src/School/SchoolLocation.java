@@ -61,7 +61,7 @@ public class SchoolLocation {
         if(result){
             this.location = SchoolLocation;
         }else{
-            Assert.fail("Location should be one og the following " + listOfLocations);
+            Assert.fail("Location should be one of the following " + listOfLocations);
         }
 
     }
