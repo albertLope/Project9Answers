@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 public class Biology extends LessonClass{
 
-
     /*
     Create a private String Arraylist name is topicList
 

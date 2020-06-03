@@ -5,7 +5,6 @@ import Student.StudentClass;
 import java.util.ArrayList;
 
 public class Music extends LessonClass{
-
     /*
     Create a private String Arraylist name is topicList
 

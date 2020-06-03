@@ -36,5 +36,4 @@ public class Chemistry extends LessonClass{
         super(studentClass);
     }
 
-
 }

@@ -18,7 +18,6 @@ public class Math extends LessonClass{
      Represent Decimals
      Place Value through Thousandths
      Multiplication Patterns
-
      */
     private ArrayList<String> topicList = new ArrayList<>();
 
